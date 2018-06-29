@@ -105,6 +105,22 @@ The supported options are:
     </p>
     <p><em>example:</em> <samp>bloop test foobar --watch</samp></p>
   </dd>
+  
+  <dt><code>-o</code> or <code>--only</code></dt>
+  <dd>
+    <p>
+      The list of test suite filters to test for only.
+    </p>
+    <p><em>example:</em> <samp>bloop test foobar -o '*myPackage.FooTest'</samp></p>
+  </dd>
+  
+   <dt><code>--argsh</code></dt>
+  <dd>
+    <p>
+     The arguments to pass in to the test framework.
+    </p>
+    <p><em>example:</em> <samp>bloop test foobar --args hello</samp></p>
+  </dd>
 </dl>
 
 ## `bloop run`
